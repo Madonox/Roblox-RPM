@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Roblox Package Manager
+Roblox Package Manager (RPM) is a package manager that allows developers to install and publish packages online with ease!
+In order to use the plugin, just simply download it [here](https://www.roblox.com/library/7554839261/RPM-Roblox-Package-Manager)!
 
-You can use the [editor on GitHub](https://github.com/Madonox/Roblox-RPM/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**DISCLAIMER:**
+I am NOT responsible for any malicious code that gets inserted into your game!  I try my best to moderate the packages, but I am only one person so it takes time for me to delete malicious packages!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Creating a package
 
-### Markdown
+In order to create a package, you must first install the DemoPackage.  This can be done by opening the plugin, going to Install Package, and entering in DemoPackage.
+Once you've installed the package, you may begin editing it as you like!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+package.rpm file:
+The package.rpm file is basically your package's config file.  While the file is Work In Progress, you can change properties in there such as package name.
+NOTE: package name is what your package will be called when published!
+```lua
+return {
+	["packageName"] = "DemoPackage";
+	["dependencies"] = {};
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Madonox/Roblox-RPM/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Upcoming features:
+- Ability to edit pre-existing packages.
+- Better data upload methods.
+- Bug fixes.
+- Optimizations.
+- Possible malicious code filter.
+- And much more!
