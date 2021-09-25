@@ -4,7 +4,7 @@ In order to use the plugin, just simply download it [here](https://www.roblox.co
 If you wish to view the source code, you may do so [here](https://github.com/Madonox/Roblox-RPM).
 
 **DISCLAIMER:**
-I am NOT responsible for any malicious code that gets inserted into your game!  I try my best to moderate the packages, but I am only one person so it takes time for me to delete malicious packages!
+I am NOT responsible for any malicious code that you may insert into your game!  I try my best to moderate the packages, but I am only one person so it takes time for me to delete malicious packages!
 
 ### Creating a package
 
